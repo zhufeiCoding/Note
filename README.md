@@ -17,7 +17,7 @@ $\alpha$  和 $\beta$ 为夹角
     2,垂直方向上的合力为ma
 
 ```math
-$\sum_{u}^{}F_u=ma$
+\sum_{u}^{}F_u=ma
 ```
 
  
