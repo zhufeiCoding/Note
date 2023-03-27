@@ -16,7 +16,7 @@ $\alpha$  和 $\beta$ 为夹角
 ```
 
 ```math
-T_1\cos\alpha=T_2\cos\beta=0
+T_1\cos\alpha-T_2\cos\beta=0
 ```
     2,垂直方向上的合力为ma
 
@@ -26,7 +26,19 @@ T_1\cos\alpha=T_2\cos\beta=0
 
 
 ```math
-T_1\sin\alpha=T_2\sin\beta=ma
+T_1\sin\alpha-T_2\sin\beta=ma
 
 ```
  
+#### 我们令
+```math
+T_1\cos\alpha=T_2\cos\beta=T
+```
+
+因为加速度是速度对时间的微分， 而速度是长度对时间的微分， 所以我们可以写成以下形式。
+```math
+T_1\sin\alpha-T_2\sin\beta=ma=m\frac{\partial^2 u}{\partial t^2}
+
+```
+
+
