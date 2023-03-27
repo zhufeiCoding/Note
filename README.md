@@ -14,10 +14,19 @@ $\alpha$  和 $\beta$ 为夹角
 ```math
 \sum_{x}^{}F_x=0
 ```
+
+```math
+T_1\cos\alpha=T_2\cos\beta=0
+```
     2,垂直方向上的合力为ma
 
 ```math
 \sum_{u}^{}F_u=ma
 ```
 
+
+```math
+T_1\sin\alpha=T_2\sin\beta=ma
+
+```
  
