@@ -3,6 +3,7 @@ reference : https://www.bilibili.com/video/BV1KZ4y1v7nA
 
 ![1](https://user-images.githubusercontent.com/126434615/227891808-f988718e-bfdf-46e3-b3b3-fb9921d96230.png)
 
+
 T1 T2 拉力
 
 
@@ -32,13 +33,12 @@ T_1\sin\alpha-T_2\sin\beta=ma
  
 #### 我们令
 ```math
-T_1\cos\alpha=T_2\cos\beta=T
+T_1\cos\alpha=T_2\cos\beta=T  (公式1)
 ```
 
 因为加速度是速度对时间的微分， 而速度是长度对时间的微分， 所以我们可以写成以下形式。
 ```math
-T_1\sin\alpha-T_2\sin\beta=ma=m\frac{\partial^2 u}{\partial t^2}
-
+T_1\sin\alpha-T_2\sin\beta=ma=m\frac{\partial^2 u}{\partial t^2}  (公式2)
 ```
 
 
@@ -66,6 +66,13 @@ m \approx u \Delta x
 
 ```
 
+### 现在我们可以把公式1，公式2重新整理成公式3，公式4
 
 
+```math
+T_1\cos\alpha=T_2\cos\beta=T  (公式3)
+```
 
+```math
+T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 u}{\partial t^2}  (公式4)
+```
