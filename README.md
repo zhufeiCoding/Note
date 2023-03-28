@@ -38,7 +38,7 @@ T_1\cos\alpha=T_2\cos\beta=T  (公式1)
 
 因为加速度是速度对时间的微分， 而速度是长度对时间的微分， 所以我们可以写成以下形式。
 ```math
-T_1\sin\alpha-T_2\sin\beta=ma=m\frac{\partial^2 u}{\partial t^2}  (公式2)
+T_1\sin\alpha-T_2\sin\beta=ma=m\frac{\partial^2 y}{\partial t^2}  (公式2)
 ```
 
 
@@ -74,19 +74,18 @@ T_1\cos\alpha=T_2\cos\beta=T  (公式3)
 ```
 
 ```math
-T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 u}{\partial t^2}  (公式4)
+T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 y}{\partial t^2}  (公式4)
 ```
 
 接下来我们对公式4的两边同时除以T，即公式1的对应项。得：
 
 ```math
-\frac{T_1\sin\alpha}{T_1\cos\alpha} - \frac{T_2\sin\beta}{T_2\cos\beta} = \frac{u}{T}\Delta x\frac{\partial^2 u}{\partial t^2}
+\frac{T_1\sin\alpha}{T_1\cos\alpha} - \frac{T_2\sin\beta}{T_2\cos\beta} = \frac{u}{T}\Delta x\frac{\partial^2 y}{\partial t^2}
 ```
 
 我们把对应相同的系数约掉，得：
 
 ```math
-\frac{\tan\alpha-\tan\beta} {\Delta x} = \frac {u} {T} \frac{\partial^2 u} {\partial t^2} 
-
+\frac{\tan\alpha-\tan\beta} {\Delta x} = \frac {u} {T} \frac{\partial^2 y} {\partial t^2} 
 ```
 
