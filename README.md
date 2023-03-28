@@ -1,7 +1,7 @@
 reference : https://www.bilibili.com/video/BV1KZ4y1v7nA
 
 
-![1](https://user-images.githubusercontent.com/126434615/227891808-f988718e-bfdf-46e3-b3b3-fb9921d96230.png)
+![1](https://user-images.githubusercontent.com/126434615/228120601-5a475d70-ed1a-4a4a-a503-7d873956da11.png)
 
 
 T1 T2 拉力
