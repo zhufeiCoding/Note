@@ -86,6 +86,37 @@ T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 y}{\partial t^2}  (公�
 我们把对应相同的系数约掉，得：
 
 ```math
-\frac{\tan\alpha-\tan\beta} {\Delta x} = \frac {u} {T} \frac{\partial^2 y} {\partial t^2} 
+\frac{\tan\alpha-\tan\beta} {\Delta x} = \frac {u} {T} \frac{\partial^2 y} {\partial t^2}   (公式5)
 ```
+
+
+
+
+### $\tan\alpha$ $\tan\beta$ 的定义
+
+```math
+\tan\alpha = y'_x(x,t)|_{x=x+\Delta t}   = \frac{\partial y} {\partial x} |_{x=x+\Delta x}   (公式6)
+```
+
+```math
+\tan\beta = y'_x(x,t)|_{x=x}  = \frac{\partial y} {\partial x} |_{x=x}           (公式7)
+```
+
+
+
+#### 把公式6，7代入公式5得：
+
+```math
+\frac{y'_x(x,t)|_{x=x+\Delta t}  -  y'_x(x,t)|_{x=x} }{\Delta x} = y''_{xx}(x,t)  (公式8)
+```
+
+#### 把公式8的右边带入公式5的左边得：
+
+```math
+\frac{\partial^2 y} {\partial x^2}   = \frac {u}{T}  \frac{\partial^2 y} {\partial t^2} 
+
+```
+至此我们得到了大名鼎鼎的波动方程.
+
+
 
