@@ -182,5 +182,6 @@ y对于t的两次导数可以表示成
 ```
 
 
+![2](https://user-images.githubusercontent.com/126434615/228233866-970fffa9-ea63-4b04-9644-106507957a42.png)
 
 
