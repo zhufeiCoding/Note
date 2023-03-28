@@ -164,12 +164,23 @@ y对于t的两次导数可以表示成
 
 我们把公式11带入公式12得：
 ```math
- \frac{\partial^2 y} {\partial t^2} =\frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}  = \frac{y(t+\Delta t, x) -y(t,x) -y(t,x) +y(t-\Delta t, x)}{\Delta t^2} = \frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}  = \frac{y(t+\Delta t, x) -2y(t,x) +y(t-\Delta t, x)}{\Delta t^2} 
+ \frac{\partial^2 y} {\partial t^2} =\frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}  = \frac{y(t+\Delta t, x) -y(t,x) -y(t,x) +y(t-\Delta t, x)}{\Delta t^2}  = \frac{y(t+\Delta t, x) -2y(t,x) +y(t-\Delta t, x)}{\Delta t^2}   (公式13)
 ```
 
 
 同理，我们可得：
 ```math
-\frac{\partial^2 y} {\partial x^2} = \frac{y(t, x+\Delta x) -2y(t,x) +y(t, x-\Delta x)}{\Delta x^2} 
+\frac{\partial^2 y} {\partial x^2} = \frac{y(t, x+\Delta x) -2y(t,x) +y(t, x-\Delta x)}{\Delta x^2}   (公式14)
 
 ```
+由公式13 和 公式14 得：
+
+```math
+
+ y(t+\Delta t, x) = \frac{y(t, x+\Delta x) -2y(t,x) +y(t, x-\Delta x)}{\Delta x^2} \frac{T}{u} \Delta t^2 + 2y(t,x) - y(t-\Delta t, x)  (公式15)
+
+```
+
+
+
+
