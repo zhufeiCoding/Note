@@ -113,7 +113,7 @@ T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 y}{\partial t^2}  (公�
 #### 把公式8的右边带入公式5的左边得：
 
 ```math
-\frac{\partial^2 y} {\partial x^2}   = \frac {u}{T}  \frac{\partial^2 y} {\partial t^2} 
+\frac{\partial^2 y} {\partial x^2}   = \frac {u}{T}  \frac{\partial^2 y} {\partial t^2}  (公式9)
 
 ```
 至此我们得到了大名鼎鼎的波动方程.
@@ -138,5 +138,13 @@ T 是张力，根据牛顿第二定律f=ma, 其单位为：
 
 ```math
 \frac {1} { ({\frac {质量} {时间} }) ^ 2}
+
+```
+
+我们令  $\frac{质量}{时间} = C $
+则公式9可以整理成：
+
+```math
+\frac{\partial^2 y} {\partial x^2}   = \frac {1}{C^2}  \frac{\partial^2 y} {\partial t^2}   (公式10)
 
 ```
