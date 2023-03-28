@@ -148,3 +148,28 @@ T 是张力，根据牛顿第二定律f=ma, 其单位为：
 \frac{\partial^2 y} {\partial x^2}   = \frac {1}{C^2}  \frac{\partial^2 y} {\partial t^2}   (公式10)
 
 ```
+
+我们对公式10右边进行整理 并 令其等于 f(x)：
+
+```math
+ \frac{\partial y} {\partial t} \approx \frac{y(t,x) - y(t-\Delta t, x)}{\Delta t} = f(t, x)  (公式11)
+```
+
+y对于t的两次导数可以表示成
+
+```math
+ \frac{\partial^2 y} {\partial t^2} = \frac{\partial f}{\partial t} \approx \frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}    (公式12)
+
+```
+
+我们把公式11带入公式12得：
+```math
+ \frac{\partial^2 y} {\partial t^2} =\frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}  = \frac{y(t+\Delta t, x) -y(t,x) -y(t,x) +y(t-\Delta t, x)}{\Delta t^2} = \frac{f(t+\Delta t,x) - f(t, x)}{\Delta t}  = \frac{y(t+\Delta t, x) -2y(t,x) +y(t-\Delta t, x)}{\Delta t^2} 
+```
+
+
+同理，我们可得：
+```math
+\frac{\partial^2 y} {\partial x^2} = \frac{y(t, x+\Delta x) -2y(t,x) +y(t, x-\Delta x)}{\Delta x^2} 
+
+```
