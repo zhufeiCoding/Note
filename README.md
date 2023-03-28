@@ -120,3 +120,23 @@ T_1\sin\alpha-T_2\sin\beta=ma=u \Delta x\frac{\partial^2 y}{\partial t^2}  (公�
 
 
 
+
+
+### 我们看一下$\frac{u}{t}$的单位是怎样的。
+
+u 是线密度，所以u的单位为：
+```math
+\frac {质量}{长度}
+```
+
+T 是张力，根据牛顿第二定律f=ma, 其单位为： 
+```math
+质量*\frac{长度}{时间^2}
+```
+
+所以 $\frac{u}{t}$ 的单位为：
+
+```math
+\frac {1} { ({\frac {质量} {时间} }) ^ 2}
+
+```
